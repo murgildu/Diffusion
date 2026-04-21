@@ -1,0 +1,4 @@
+This talk is supported by the Faculty of Informatics at the University of the Basque Country, and its Master’s in Computational Engineering and Intelligent Systems. The event is organized by the faculty’s 3D Extended Reality Lab, MURGILDU.
+
+
+(Note, MURGILDU is pronounced as /mur.ɡil.du/ . Easy cue in English: moor-GEEL-doo. You can ommit the name if you want, as it is shown in the slides)

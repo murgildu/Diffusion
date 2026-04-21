@@ -1,0 +1,33 @@
+=======================================
+Tentative questions for the session 1
+=======================================
+
+What does XR Tools actually handle for developers that plain Godot/OpenXR does not, and in that context, what parts should we still learn to build ourselves?
+
+When starting a relatively simple XR game in Godot with XR Tools, what should we structure first: the main scenes, the player rig, or the interactive elements of the world?
+
+What is a good scene hierarchy for an XR project so that the player setup, movement, and scene content stay clean and easy to expand later?
+
+How much should we put into a reusable base scene for the player and core XR mechanics, and what should remain specific to each individual level or scene?
+
+What are the key steps for organizing an XR project well from the beginning, so we avoid mixing gameplay logic, interaction logic, and scene-specific content too early?
+
+=======================================
+Tentative questions for the session 2
+=======================================
+
+For passthrough and mixed reality in Godot, how dependent are we on Meta’s APIs in practice? If we want to go beyond simple passthrough and use more advanced computer vision or machine-learning models, do we need to rely on Meta’s camera APIs, or are there viable custom alternatives built on OpenXR and Godot’s tooling?
+
+How feasible is it to run machine-learning models directly on Meta headsets for mixed reality and computer vision? For tasks such as fine-grained object recognition, is on-device inference realistic, or is it generally better to rely on external computing and use the headset mainly as the interface layer? Is there any project available as reference on such topics ?
+
+If our Godot project includes computation-heavy systems, should we stick to C# for performance, or is GDScript still a safe choice for high-compute workloads?
+
+
+To what extent does Godot currently support eye tracking, and what can we realistically do with it in practice? Does it mainly provide basic gaze interaction, or does it also expose richer eye-tracking data for more advanced use cases?
+
+General questions
+=================
+
+How do you see the future of XR over the next few years? Do you expect VR, mixed reality, and AR to converge, or to keep evolving as separate ecosystems?
+
+AR feels promising, but not fully mature and not equally supported across all platforms (e.g. Steam Frame). Is the main challenge today the hardware, the software stack, or the lack of common standards? how should developers think about cross-platform development versus committing to one ecosystem early on?
